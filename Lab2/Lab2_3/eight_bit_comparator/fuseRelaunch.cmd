@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/cse/DANE-ELEC/CS220Labs/Lab2_3/eight_bit_comparator/eight_bit_comparator_top_isim_beh.exe" -prj "/media/cse/DANE-ELEC/CS220Labs/Lab2_3/eight_bit_comparator/eight_bit_comparator_top_beh.prj" "work.eight_bit_comparator_top" "work.glbl" 

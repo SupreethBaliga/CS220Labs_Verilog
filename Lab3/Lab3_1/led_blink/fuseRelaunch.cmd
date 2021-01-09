@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/cse/735F-494D/CS220/Lab3/Lab3_1/led_blink/led_blink_top_isim_beh.exe" -prj "/media/cse/735F-494D/CS220/Lab3/Lab3_1/led_blink/led_blink_top_beh.prj" "work.led_blink_top" "work.glbl" 

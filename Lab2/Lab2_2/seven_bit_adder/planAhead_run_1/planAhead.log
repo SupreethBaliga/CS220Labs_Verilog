@@ -1,0 +1,130 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Jan 22 15:42:42 2020
+# Process ID: 16712
+# Log file: /media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/planAhead_run_1/planAhead.log
+# Journal file: /media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -387 day(s)
+INFO: [Device 21-36] Loading parts and site information from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/pa.fromHdl.tcl
+# create_project -name seven_bit_adder -dir "/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/planAhead_run_1" -part xc3s500efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "seven_bit_adder.ucf" [current_fileset -constrset]
+Adding file '/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {full_adder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {seven_bit_adder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top seven_bit_adder $srcset
+# add_files [list {seven_bit_adder.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s500efg320-4
+Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/full_adder.v" into library work
+Analyzing Verilog file "/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder.v" into library work
+INFO: [Designutils 20-910] Reading macro library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/Package.xml
+Loading io standards from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/xc3s500e/fg320/SSORules.xml
+Loading list of drcs for the architecture : /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library /opt/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder.ucf]
+Finished Parsing UCF File [/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: d96b2c4a
+open_rtl_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:08 . Memory (MB): peak = 2847.211 ; gain = 139.234
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E9 [get_ports {out[6]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {out[5]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {out[5]}]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {out[4]}]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports {out[3]}]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports {out[2]}]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports {out[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {out[0]}]
+endgroup
+set_property iostandard LVTTL [get_ports [list {out[6]} {out[5]} {out[4]} {out[3]} {out[2]} {out[1]} {out[0]}]]
+set_property drive 8 [get_ports [list {out[6]} {out[5]} {out[4]} {out[3]} {out[2]} {out[1]} {out[0]}]]
+startgroup
+set_property package_pin N17 [get_ports {Y[3]}]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports {Y[2]}]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports {Y[1]}]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports {Y[0]}]
+endgroup
+set_property iostandard LVTTL [get_ports [list {Y[3]} {Y[2]} {Y[1]} {Y[0]}]]
+set_property pulltype PULLUP [get_ports [list {Y[3]} {Y[2]} {Y[1]} {Y[0]}]]
+startgroup
+set_property package_pin F9 [get_ports carry_out]
+endgroup
+startgroup
+set_property package_pin V4 [get_ports PB1]
+endgroup
+startgroup
+set_property package_pin D18 [get_ports PB2]
+endgroup
+startgroup
+set_property package_pin K17 [get_ports PB3]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports PB4]
+endgroup
+set_property iostandard LVTTL [get_ports [list carry_out]]
+set_property pulltype PULLDOWN [get_ports [list carry_out]]
+set_property pulltype NONE [get_ports [list carry_out]]
+set_property pulltype PULLDOWN [get_ports [list PB1]]
+set_property pulltype PULLDOWN [get_ports [list PB2]]
+set_property pulltype PULLDOWN [get_ports [list PB3]]
+set_property pulltype PULLDOWN [get_ports [list PB4]]
+set_property drive 8 [get_ports [list carry_out]]
+set_property iostandard LVTTL [get_ports [list PB1]]
+set_property iostandard LVTTL [get_ports [list PB2]]
+set_property iostandard LVTTL [get_ports [list PB3]]
+save_constraints
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See /media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/planAhead_pid16712.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Jan 22 15:45:45 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

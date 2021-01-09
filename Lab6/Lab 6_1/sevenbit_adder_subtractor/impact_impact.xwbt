@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/impact.xsl
+OUTFILE=/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor
+LICENSE=iMPACT
+USER_INFO=iMPACT

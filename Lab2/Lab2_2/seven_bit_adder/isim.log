@@ -1,0 +1,29 @@
+ISim log file
+Running: /media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder_top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder_top_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+time =                   15,       1011010 +       xxx0001 =       xxx1011, carry = x
+
+time =                   20,       1011010 +       1110001 =       1001011, carry = 1
+
+time =                   30,       1010110 +       1110001 =       1000111, carry = 1
+
+time =                   35,       1100110 +       1110001 =       1010111, carry = 1
+
+time =                   40,       1100110 +       1111111 =       1010101, carry = 1
+
+time =                   40,       1100110 +       1111111 =       1000101, carry = 1
+
+time =                   40,       1100110 +       1111111 =       1100101, carry = 1
+
+Stopped at time : 50 ns : File "/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/seven_bit_adder_top.v" Line 89
+# exit 0

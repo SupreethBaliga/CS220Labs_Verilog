@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/media/cse/DANE-ELEC/CS220Labs/Assignment1/two_bit_adder/two_bit_adder_top_isim_beh.exe" -prj "/media/cse/DANE-ELEC/CS220Labs/Assignment1/two_bit_adder/two_bit_adder_top_beh.prj" "work.two_bit_adder_top" "work.glbl" 

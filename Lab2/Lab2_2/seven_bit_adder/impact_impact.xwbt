@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/impact.xsl
+OUTFILE=/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/cse/DANE-ELEC/CS220Labs/ASSIGNMENT2/seven_bit_adder
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,4 @@
+verilog work "one_bit_adder.v"
+verilog work "seven_bit_adder_subtractor.v"
+verilog work "rotor.v"
+verilog work "seven_bit_adder_subtractor_top.v"

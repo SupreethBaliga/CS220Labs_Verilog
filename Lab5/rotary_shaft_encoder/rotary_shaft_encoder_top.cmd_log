@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/rotary_shaft_encoder_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc rotary_shaft_encoder_top.ucf -p xc3s500e-fg320-4 rotary_shaft_encoder_top.ngc rotary_shaft_encoder_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o rotary_shaft_encoder_top_map.ncd rotary_shaft_encoder_top.ngd rotary_shaft_encoder_top.pcf 
+par -w -intstyle ise -ol high -t 1 rotary_shaft_encoder_top_map.ncd rotary_shaft_encoder_top.ncd rotary_shaft_encoder_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml rotary_shaft_encoder_top.twx rotary_shaft_encoder_top.ncd -o rotary_shaft_encoder_top.twr rotary_shaft_encoder_top.pcf -ucf rotary_shaft_encoder_top.ucf 
+bitgen -intstyle ise -f rotary_shaft_encoder_top.ut rotary_shaft_encoder_top.ncd 

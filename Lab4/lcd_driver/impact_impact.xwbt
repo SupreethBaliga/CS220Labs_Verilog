@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/impact.xsl
+OUTFILE=/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver
+LICENSE=iMPACT
+USER_INFO=iMPACT

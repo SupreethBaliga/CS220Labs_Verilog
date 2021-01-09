@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:24:36 MDT 2013
+# Start of session at: Wed Feb 26 14:11:27 2020
+# Process ID: 7360
+# Log file: /media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/planAhead_run_1/planAhead.log
+# Journal file: /media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1

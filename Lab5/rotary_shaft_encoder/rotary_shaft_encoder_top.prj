@@ -1,0 +1,3 @@
+verilog work "rotor.v"
+verilog work "led_ripple.v"
+verilog work "rotary_shaft_encoder_top.v"

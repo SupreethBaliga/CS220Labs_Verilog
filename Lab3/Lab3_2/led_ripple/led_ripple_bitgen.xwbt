@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/cse/735F-494D/CS220/Lab3/Lab3_2/led_ripple/led_ripple.ncd
+OUTFILE=/media/cse/735F-494D/CS220/Lab3/Lab3_2/led_ripple/led_ripple.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/media/cse/735F-494D/CS220/Lab3/Lab3_2/led_ripple
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

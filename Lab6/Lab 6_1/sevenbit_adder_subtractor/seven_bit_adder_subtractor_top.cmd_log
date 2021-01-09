@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_bit_adder_subtractor_top.ucf -p xc3s500e-fg320-4 "seven_bit_adder_subtractor_top.ngc" seven_bit_adder_subtractor_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_bit_adder_subtractor_top_map.ncd seven_bit_adder_subtractor_top.ngd seven_bit_adder_subtractor_top.pcf 
+par -w -intstyle ise -ol high -t 1 seven_bit_adder_subtractor_top_map.ncd seven_bit_adder_subtractor_top.ncd seven_bit_adder_subtractor_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_bit_adder_subtractor_top.twx seven_bit_adder_subtractor_top.ncd -o seven_bit_adder_subtractor_top.twr seven_bit_adder_subtractor_top.pcf -ucf seven_bit_adder_subtractor_top.ucf 
+bitgen -intstyle ise -f seven_bit_adder_subtractor_top.ut seven_bit_adder_subtractor_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab6/Lab 6_1/sevenbit_adder_subtractor/seven_bit_adder_subtractor_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc seven_bit_adder_subtractor_top.ucf -p xc3s500e-fg320-4 "seven_bit_adder_subtractor_top.ngc" seven_bit_adder_subtractor_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o seven_bit_adder_subtractor_top_map.ncd seven_bit_adder_subtractor_top.ngd seven_bit_adder_subtractor_top.pcf 
+par -w -intstyle ise -ol high -t 1 seven_bit_adder_subtractor_top_map.ncd seven_bit_adder_subtractor_top.ncd seven_bit_adder_subtractor_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml seven_bit_adder_subtractor_top.twx seven_bit_adder_subtractor_top.ncd -o seven_bit_adder_subtractor_top.twr seven_bit_adder_subtractor_top.pcf -ucf seven_bit_adder_subtractor_top.ucf 
+bitgen -intstyle ise -f seven_bit_adder_subtractor_top.ut seven_bit_adder_subtractor_top.ncd 

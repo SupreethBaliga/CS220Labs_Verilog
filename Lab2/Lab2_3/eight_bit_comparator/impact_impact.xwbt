@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/cse/DANE-ELEC/CS220Labs/Lab2_3/eight_bit_comparator/impact.xsl
+OUTFILE=/media/cse/DANE-ELEC/CS220Labs/Lab2_3/eight_bit_comparator/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/cse/DANE-ELEC/CS220Labs/Lab2_3/eight_bit_comparator
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/media/cse/DANE-ELEC/CS220Labs/Assignment1/two_bit_adder/two_bit_addder.xst" -ofn "/media/cse/DANE-ELEC/CS220Labs/Assignment1/two_bit_adder/two_bit_addder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc two_bit_addder.ucf -p xc3s500e-fg320-4 two_bit_addder.ngc two_bit_addder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o two_bit_addder_map.ncd two_bit_addder.ngd two_bit_addder.pcf 
+par -w -intstyle ise -ol high -t 1 two_bit_addder_map.ncd two_bit_addder.ncd two_bit_addder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml two_bit_addder.twx two_bit_addder.ncd -o two_bit_addder.twr two_bit_addder.pcf -ucf two_bit_addder.ucf 
+bitgen -intstyle ise -f two_bit_addder.ut two_bit_addder.ncd 

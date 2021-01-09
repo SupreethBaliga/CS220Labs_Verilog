@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "/media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder.xst" -ofn "/media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc four_binary_adder.ucf -p xc3s500e-fg320-4 four_binary_adder.ngc four_binary_adder.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o four_binary_adder_map.ncd four_binary_adder.ngd four_binary_adder.pcf 
+par -w -intstyle ise -ol high -t 1 four_binary_adder_map.ncd four_binary_adder.ncd four_binary_adder.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml four_binary_adder.twx four_binary_adder.ncd -o four_binary_adder.twr four_binary_adder.pcf -ucf four_binary_adder.ucf 
+bitgen -intstyle ise -f four_binary_adder.ut four_binary_adder.ncd 

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.ncd
+OUTFILE=/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

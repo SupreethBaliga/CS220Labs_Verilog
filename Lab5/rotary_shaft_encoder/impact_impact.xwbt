@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/impact.xsl
+OUTFILE=/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/nikhilag/735F-494D/CS220/Lab5/rotary_shaft_encoder
+LICENSE=iMPACT
+USER_INFO=iMPACT

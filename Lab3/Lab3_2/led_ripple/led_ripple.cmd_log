@@ -1,0 +1,11 @@
+xst -intstyle ise -ifn "/media/cse/735F-494D/CS220/Lab3/Lab3_2/led_ripple/led_ripple.xst" -ofn "/media/cse/735F-494D/CS220/Lab3/Lab3_2/led_ripple/led_ripple.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_ripple.ucf -p xc3s500e-fg320-4 led_ripple.ngc led_ripple.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o led_ripple_map.ncd led_ripple.ngd led_ripple.pcf 
+par -w -intstyle ise -ol high -t 1 led_ripple_map.ncd led_ripple.ncd led_ripple.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led_ripple.twx led_ripple.ncd -o led_ripple.twr led_ripple.pcf -ucf led_ripple.ucf 
+bitgen -intstyle ise -f led_ripple.ut led_ripple.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc led_ripple.ucf -p xc3s500e-fg320-4 led_ripple.ngc led_ripple.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o led_ripple_map.ncd led_ripple.ngd led_ripple.pcf 
+par -w -intstyle ise -ol high -t 1 led_ripple_map.ncd led_ripple.ncd led_ripple.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml led_ripple.twx led_ripple.ncd -o led_ripple.twr led_ripple.pcf -ucf led_ripple.ucf 
+bitgen -intstyle ise -f led_ripple.ut led_ripple.ncd 

@@ -1,0 +1,10 @@
+
+
+NET "clk" LOC = C9;
+NET "led0" LOC = F12;
+
+
+NET "clk" IOSTANDARD = LVCMOS33;
+NET "led0" IOSTANDARD = LVTTL;
+NET "led0" DRIVE = 8;
+NET "clk" PERIOD = 20 ns HIGH 50 %;

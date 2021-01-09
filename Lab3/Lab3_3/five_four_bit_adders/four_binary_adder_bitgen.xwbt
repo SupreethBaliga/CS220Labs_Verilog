@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder.ncd
+OUTFILE=/media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders
+LICENSE=WebPack
+USER_INFO=211450758_0_0_676

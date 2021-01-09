@@ -1,0 +1,23 @@
+ISim log file
+Running: /media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder_top_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder_top_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+time=                   0,   xxxx+   xxxx+   xxxx+   xxxx+   0000=      0xxxxxx
+
+Finished circuit initialization process.
+time=                  20,   1000+   1001+   1011+   0101+   0000=      0100001
+
+time=                  25,   1000+   1001+   1011+   0101+   1101=      0101100
+
+time=                  25,   1000+   1001+   1011+   0101+   1101=      0101110
+
+Stopped at time : 30 ns : File "/media/cse/735F-494D/CS220/Lab3/Lab3_3/five_four_bit_adders/four_binary_adder_top.v" Line 87
+# exit 0

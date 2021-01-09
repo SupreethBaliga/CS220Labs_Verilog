@@ -1,0 +1,58 @@
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 
+xst -intstyle ise -ifn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.xst" -ofn "/media/nikhilag/735F-494D/CS220/Lab4/lcd_driver/lcd_driver_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc lcd_driver_top.ucf -p xc3s500e-fg320-4 lcd_driver_top.ngc lcd_driver_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o lcd_driver_top_map.ncd lcd_driver_top.ngd lcd_driver_top.pcf 
+par -w -intstyle ise -ol high -t 1 lcd_driver_top_map.ncd lcd_driver_top.ncd lcd_driver_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml lcd_driver_top.twx lcd_driver_top.ncd -o lcd_driver_top.twr lcd_driver_top.pcf -ucf lcd_driver_top.ucf 
+bitgen -intstyle ise -f lcd_driver_top.ut lcd_driver_top.ncd 

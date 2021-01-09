@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/media/cse/735F-494D/CS220/Lab3/Lab3_1/led_blink/impact.xsl
+OUTFILE=/media/cse/735F-494D/CS220/Lab3/Lab3_1/led_blink/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/media/cse/735F-494D/CS220/Lab3/Lab3_1/led_blink
+LICENSE=iMPACT
+USER_INFO=iMPACT
